@@ -25,4 +25,4 @@ jobs:
 
       - name: Run pylint
         run: |
-          pylint calculator.py
+          pylint calculator.py --fail-under=7.0
